@@ -112,7 +112,7 @@ const seedBooks = async () => {
   try {
     await connectDB();
 
-    // Optional: clear old data
+    //clear old data
     await Book.deleteMany();
 
     // Insert new data
